@@ -128,7 +128,7 @@ const UserTable = () => {
 
       {loading ? ( // Conditional rendering based on loading state
         <div className="flex justify-center items-center h-64">
-          <p className="text-lg text-gray-700">Loading users...</p>
+          <p className="text-lg text-gray-700"><span className="loading loading-bars loading-lg"></span></p>
         </div>
       ) : (
         <div className="overflow-x-auto">
