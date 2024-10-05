@@ -121,8 +121,8 @@ const AddUserForm = ({
   return (
     showModal && (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-        <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-          <h2 className="text-xl font-bold mb-4">
+        <div className="bg-white p-4 md:p-6 rounded-lg shadow-lg w-full max-w-md max-h-full overflow-auto">
+          <h2 className="text-xl font-bold mb-4 text-center">
             {isEditMode ? "Edit User" : "Add New User"}
           </h2>
           <form onSubmit={onSubmit}>
